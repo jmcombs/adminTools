@@ -1,0 +1,11 @@
+services:
+  dockertools:
+    container_name: dockertools
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    privileged: true
+    restart: always
+    volumes:
+      - /Users/jmcombs/Projects/dockerTools/files:/home/coder/files
