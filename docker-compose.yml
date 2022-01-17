@@ -1,6 +1,6 @@
 services:
-  dockertools:
-    container_name: dockertools
+  admintools:
+    container_name: admintools
     build:
       context: .
       dockerfile: Dockerfile

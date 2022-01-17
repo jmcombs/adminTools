@@ -41,6 +41,7 @@ RUN apt-get update \
         sudo \
         unzip \
         wget \
+        whois \
         zsh 
 
 # Configure en_US.UTF-8 Locale
